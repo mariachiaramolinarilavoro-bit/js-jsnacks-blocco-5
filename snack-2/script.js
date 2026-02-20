@@ -22,11 +22,9 @@ console.log(namePeople); */
 
 let namePeople = [];
 
-  people.forEach(function (obj){
+people.forEach(function (obj) {
   namePeople.push(`${obj.name}`)
   console.log(obj.name);
-  
-  });
-  console.log(namePeople.join(', '));
-  
 
+});
+console.log(namePeople.join(', '));
