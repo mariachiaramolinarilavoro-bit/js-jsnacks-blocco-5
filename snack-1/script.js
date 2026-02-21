@@ -15,5 +15,4 @@ const namePeople = names.map(function(name) {
     return name;
 });
 
-console.log(namePeople);
-
+console.log(namePeople.join(', '));

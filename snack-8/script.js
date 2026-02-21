@@ -22,7 +22,7 @@ const students = [
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
 const filterStudent = students.find(function (student) {
-  return student.id === 1
+  return student.name === 'Marco Lanci'
 });
 
 const classroom = filterStudent.class;

@@ -8,10 +8,7 @@ const incrementNumb = numbers.map(function (numb) {
     return numb + 1
 });
 
-console.log(incrementNumb);
-
-
-
+console.log(incrementNumb.join(', '));
 
 /* const incrementNumb2 = numbers.map(numb => numb + 1);
 console.log(incrementNumb2); */

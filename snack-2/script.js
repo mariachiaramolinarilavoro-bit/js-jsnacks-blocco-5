@@ -38,4 +38,4 @@ const namePeople = people.map(function(name){
   return name.name
 })
 
-console.log(namePeople);
+console.log(namePeople.join(', '));
